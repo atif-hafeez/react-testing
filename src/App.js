@@ -2,7 +2,9 @@ import * as React from 'react';
 
 
 const getUser = () => {
-  return Promise.resolve({id: '1', name:'Robin'});
+  return Promise.resolve(
+    {id: '1', name:'Robin'}
+    );
 }
 
 function App() {
